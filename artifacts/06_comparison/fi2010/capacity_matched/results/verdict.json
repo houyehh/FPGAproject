@@ -1,0 +1,9 @@
+{
+  "paired_test_macro_f1_mean_difference": -0.017786249742958005,
+  "paired_test_macro_f1_sample_std": 0.006602068705540125,
+  "difference_in_paired_std_units": -2.6940419035676917,
+  "verdict": "feedforward_win",
+  "threshold_rule": "recurrent win if mean paired delta > +1 std; feedforward win if < -1 std; otherwise tie",
+  "both_sides_converged_naturally": true,
+  "new5_used": false
+}

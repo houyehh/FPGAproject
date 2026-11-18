@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "stage": "10E",
+  "new5_used": false,
+  "oracle_uses_future_labels": true,
+  "post_hoc_diagnostic_only": true,
+  "session_count": 16,
+  "perfect_a_profitable": false,
+  "perfect_b_profitable": true,
+  "perfect_a_significant_cells": "11/12",
+  "perfect_b_significant_cells": "12/12",
+  "bracket_sign_stable": true,
+  "unstable_cases": [],
+  "robust_to_tail_removal": true,
+  "verdict": "action_space_problem",
+  "recommendation": "Add a cancel action before investing in new features.",
+  "protected_artifacts_unchanged": true,
+  "runtime_seconds": 1001.6494631000005
+}

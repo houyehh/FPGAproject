@@ -1,0 +1,12 @@
+{
+  "timestamp_unix": 1793483308.0511687,
+  "python": ".venv\\Scripts\\python.exe",
+  "torch_version": "2.10.0+cpu",
+  "cuda_available": false,
+  "cpu_logical": 8,
+  "torch_threads": 4,
+  "memory_query_ok": true,
+  "memory_total_gb": 31.48312759399414,
+  "memory_available_gb": 9.798233032226562,
+  "new5_used": false
+}

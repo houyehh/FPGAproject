@@ -1,0 +1,31 @@
+{
+  "final_params": 186,
+  "trace_max_abs_diff": 0.0,
+  "checkpoint": "n2ew_era\\11b_toxicity_objective_retrain_v2\\results\\run1\\stage2\\models\\toxicity_hidden8_seed1_best.pt",
+  "cpu": "Intel64 Family 6 Model 189 Stepping 1, GenuineIntel",
+  "protocol": "LibTorch C++, 1 stream, 100 warm-up, 10000 timed calls, 2 rounds x 3 interleaved repeats",
+  "aggregate": {
+    "start_1731": {
+      "runs": 6,
+      "median_of_p50_us": 34.25,
+      "median_of_p99_us": 204.39999999999998,
+      "range_p50_us": [
+        33.1,
+        35.5
+      ],
+      "ratio_p50_vs_490ns": 69.89795918367346,
+      "ratio_p99_vs_490ns": 417.1428571428571
+    },
+    "final_186": {
+      "runs": 6,
+      "median_of_p50_us": 14.6,
+      "median_of_p99_us": 93.2,
+      "range_p50_us": [
+        14.3,
+        15.3
+      ],
+      "ratio_p50_vs_490ns": 29.79591836734694,
+      "ratio_p99_vs_490ns": 190.20408163265307
+    }
+  }
+}

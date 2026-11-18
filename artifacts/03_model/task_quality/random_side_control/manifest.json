@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "stage": "10D",
+  "random_realizations": 100,
+  "seeds_recorded": true,
+  "new5_used": false,
+  "fill_rate_matched_all": false,
+  "signal_beats_random_95p_count": "12/12",
+  "paired_significant_count": "6/12",
+  "main_fill_count_gap_percent_range": [
+    54.75980054398551,
+    205.21513108614232
+  ],
+  "verdict": "cannot_claim",
+  "protected_artifacts_unchanged": true,
+  "runtime_seconds": 1309.2881265000906
+}

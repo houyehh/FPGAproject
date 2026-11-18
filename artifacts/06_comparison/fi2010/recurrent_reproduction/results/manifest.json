@@ -1,0 +1,29 @@
+{
+  "data": "FI-2010 Setup 2",
+  "horizon_k": 50,
+  "loss": "raw_cross_entropy",
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "scheduler": "none",
+  "patience": 10,
+  "max_epochs": 120,
+  "batch_size": 512,
+  "torch_threads": 8,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "tiers": {
+    "2": {
+      "width": 16,
+      "parameters": 2132
+    },
+    "3": {
+      "width": 64,
+      "parameters": 23876
+    }
+  },
+  "training_function": "09j_three_independent_tracks/03_run_track_b.py:train_one",
+  "new5_used": false
+}

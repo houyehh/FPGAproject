@@ -1,0 +1,4 @@
+design,blocks,dilations,receptive_field,channels_176_dsp,parameter_count,mac_count,macs_by_layer,mac_budget_176,theoretical_global_lower_bound_cycles_176,channels_220_dsp,mac_count_at_220_channel,mac_budget_220
+A,3,1;2;4,29,3,305,5865,3888;675;567;459;243;27;6,8624,34,4,8696,10780
+B,4,1;2;4;8,61,1,81,3587,2832;171;159;147;123;99;51;3;2,8624,21,2,8680,10780
+C,5,1;2;4;8;16,125,1,89,8105,5904;363;351;339;315;291;243;195;99;3;2,8624,47,1,8105,10780

@@ -1,0 +1,13 @@
+mode=negative
+wns_ns=0.114
+tns_ns=0.0
+failing_endpoints=0
+dsp48e1=176
+carry4=4401
+slice_register_primitives=12232
+ramb18e1=0
+ramb36e1=40
+block_ram_tile_equivalent=40.0
+lut_as_logic=25455
+bitstream=n2ew_era/13c_hls_to_onboard/results/wrapper_retry/board_100mhz_negative/phc_h8_toxicity_negative_100mhz.bit
+debug_probes=n2ew_era/13c_hls_to_onboard/results/wrapper_retry/board_100mhz_negative/phc_h8_toxicity_negative_100mhz.ltx

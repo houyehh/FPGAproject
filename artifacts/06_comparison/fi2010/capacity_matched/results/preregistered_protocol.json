@@ -1,0 +1,129 @@
+{
+  "protocol_status": "preregistered_before_training",
+  "dataset": "FI-2010 NoAuction Zscore Setup 2 cache from 08A",
+  "window": 100,
+  "train_fraction_head": 0.8,
+  "validation_fraction_tail": 0.19999999999999996,
+  "test_source": "CF7+CF8+CF9; selection-after-only diagnostics",
+  "horizon_k": 50,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "hidden_dim_both_sides": 4,
+  "loss": "raw_cross_entropy",
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "lr_scheduler": "CosineAnnealingLR",
+  "lr_t_max": 200,
+  "lr_eta_min": 1e-05,
+  "max_epochs": 200,
+  "patience": 10,
+  "min_delta": 1e-05,
+  "batch_size": 512,
+  "eval_batch_size": 1024,
+  "grad_clip_norm": 1.0,
+  "selection_metric": "validation_macro_f1",
+  "primary_diagnostic": "test_macro_f1_after_selection",
+  "secondary_diagnostic": "test_weighted_f1_after_selection",
+  "verdict_scale": "sample_std_of_seed_paired_test_macro_f1_differences",
+  "verdict_rule": "recurrent win if mean paired delta > +1 std; feedforward win if < -1 std; otherwise tie",
+  "new5_used": false,
+  "recurrent_parameter_count": 195,
+  "feedforward_parameter_count": 179,
+  "parameter_delta_pct_vs_feedforward": 8.938547486033519,
+  "recurrent_parameter_shapes": [
+    {
+      "name": "diag_decay_param",
+      "shape": [
+        4
+      ],
+      "parameters": 4
+    },
+    {
+      "name": "diag_gain_param",
+      "shape": [
+        4
+      ],
+      "parameters": 4
+    },
+    {
+      "name": "encoder.0.weight",
+      "shape": [
+        4,
+        40
+      ],
+      "parameters": 160
+    },
+    {
+      "name": "encoder.0.bias",
+      "shape": [
+        4
+      ],
+      "parameters": 4
+    },
+    {
+      "name": "encoder.1.weight",
+      "shape": [
+        4
+      ],
+      "parameters": 4
+    },
+    {
+      "name": "encoder.1.bias",
+      "shape": [
+        4
+      ],
+      "parameters": 4
+    },
+    {
+      "name": "readout.weight",
+      "shape": [
+        3,
+        4
+      ],
+      "parameters": 12
+    },
+    {
+      "name": "readout.bias",
+      "shape": [
+        3
+      ],
+      "parameters": 3
+    }
+  ],
+  "feedforward_parameter_shapes": [
+    {
+      "name": "hidden.weight",
+      "shape": [
+        4,
+        40
+      ],
+      "parameters": 160
+    },
+    {
+      "name": "hidden.bias",
+      "shape": [
+        4
+      ],
+      "parameters": 4
+    },
+    {
+      "name": "readout.weight",
+      "shape": [
+        3,
+        4
+      ],
+      "parameters": 12
+    },
+    {
+      "name": "readout.bias",
+      "shape": [
+        3
+      ],
+      "parameters": 3
+    }
+  ]
+}

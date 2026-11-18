@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "parameter_counts": {
+    "2": 2132,
+    "3": 23876
+  },
+  "reproduced_within_seed_noise": true,
+  "tier3_feedforward_still_wins": true,
+  "artifacts_complete": true,
+  "artifact_count": 18,
+  "missing_artifacts": [],
+  "new5_used": false
+}

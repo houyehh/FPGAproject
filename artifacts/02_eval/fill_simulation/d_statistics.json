@@ -1,0 +1,11 @@
+{
+  "negative_count": 0,
+  "count": 19956062,
+  "p50": 0.0,
+  "p90": 0.0,
+  "p99": 2.0,
+  "max": 100.0,
+  "zero_fraction": 0.9127270199902165,
+  "median_d_over_trade_when_trade_positive": 0.0,
+  "ratio_count": 163429
+}

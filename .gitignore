@@ -1,0 +1,20 @@
+# 原始資料與大型產物（見 README「原始資料」一節）
+*.parquet
+*.npz
+*.pt
+*.bit
+*.ltx
+*.dcp
+# Vivado / HLS 建置產物
+**/vivado*/
+**/*.runs/
+**/*.cache/
+**/.autopilot/
+**/solution*/
+**/sim/
+**/syn/
+**/impl/
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

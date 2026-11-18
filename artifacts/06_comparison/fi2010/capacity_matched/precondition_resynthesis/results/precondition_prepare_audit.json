@@ -1,0 +1,46 @@
+{
+  "status": "prepared_for_isolated_csim_csynth",
+  "source_phase": "n2ew_era\\08a_fi2010_public_benchmark",
+  "output_dir": "n2ew_era\\09b_fi2010_capacity_matched\\precondition_08a_resynthesis",
+  "old_selection": {
+    "rank_by_test_macro_f1_for_k50_raw": "1",
+    "selected_for_stage2": "True",
+    "horizon": "50",
+    "seed": "1",
+    "loss_mode": "raw",
+    "val_macro_f1": "0.3745797869692153",
+    "test_macro_f1": "0.4243949145879136",
+    "checkpoint": "models\\phc_fi2010_h50_seed1_raw_v2.pt",
+    "selection_rule": "k=50 raw primary horizon; median seed by Stage 1 v2 test macro F1"
+  },
+  "corrected_selection": {
+    "rank_by_val_macro_f1_for_k50_raw": "1",
+    "selected_for_stage2": "True",
+    "horizon": "50",
+    "seed": "0",
+    "loss_mode": "raw",
+    "val_macro_f1": "0.3664875958866683",
+    "test_macro_f1": "0.42444378780540254",
+    "checkpoint": "models\\phc_fi2010_h50_seed0_raw_v2.pt",
+    "selection_rule": "k=50 raw primary horizon; median seed by Stage 1 v2 VAL macro F1 (test-isolated; test_macro_f1 recorded for reporting only, fixed 2026-08-16 per red-team audit)"
+  },
+  "selected_checkpoint_changed_vs_old": true,
+  "protected_08a_hashes_before": {
+    "n2ew_era\\08a_fi2010_public_benchmark\\05_prepare_stage2_hls.py": "e33bb518220eee2a9e65c7058296a4d32c59c6e6e3d991c4b42b75a72ded35f1",
+    "n2ew_era\\08a_fi2010_public_benchmark\\06_collect_stage2_hls_results.py": "4bf425362a9e00f2000167f46373ad95082d4e79e059fa2fd6169aab976c3812",
+    "n2ew_era\\08a_fi2010_public_benchmark\\results\\stage2_checkpoint_selection.csv": "7e300c90c7fa627d03ed2eb05d988c4e7f36385b57f4bde6c281caa99cd4f732",
+    "n2ew_era\\08a_fi2010_public_benchmark\\results\\stage2_hls_manifest.json": "85acc14b69b746bf650ec08e6a1ac00f92ac54552fbbf4dee9499afe7a950586",
+    "n2ew_era\\08a_fi2010_public_benchmark\\hls_src\\fi2010_phc_weights.hpp": "b0477566c9ffc5e3f38136ec81516370e59e43a262c20ba35f405ad17c2972ce",
+    "n2ew_era\\08a_fi2010_public_benchmark\\hls_component\\hls_component\\hls\\syn\\report\\fi2010_phc_step_csynth.rpt": "3cd05c19a993021fb40c11d6568df5ef92de0cb26c4a3ed92e8d6b7d73b9d35d"
+  },
+  "protected_08a_hashes_after": {
+    "n2ew_era\\08a_fi2010_public_benchmark\\05_prepare_stage2_hls.py": "e33bb518220eee2a9e65c7058296a4d32c59c6e6e3d991c4b42b75a72ded35f1",
+    "n2ew_era\\08a_fi2010_public_benchmark\\06_collect_stage2_hls_results.py": "4bf425362a9e00f2000167f46373ad95082d4e79e059fa2fd6169aab976c3812",
+    "n2ew_era\\08a_fi2010_public_benchmark\\results\\stage2_checkpoint_selection.csv": "7e300c90c7fa627d03ed2eb05d988c4e7f36385b57f4bde6c281caa99cd4f732",
+    "n2ew_era\\08a_fi2010_public_benchmark\\results\\stage2_hls_manifest.json": "85acc14b69b746bf650ec08e6a1ac00f92ac54552fbbf4dee9499afe7a950586",
+    "n2ew_era\\08a_fi2010_public_benchmark\\hls_src\\fi2010_phc_weights.hpp": "b0477566c9ffc5e3f38136ec81516370e59e43a262c20ba35f405ad17c2972ce",
+    "n2ew_era\\08a_fi2010_public_benchmark\\hls_component\\hls_component\\hls\\syn\\report\\fi2010_phc_step_csynth.rpt": "3cd05c19a993021fb40c11d6568df5ef92de0cb26c4a3ed92e8d6b7d73b9d35d"
+  },
+  "protected_08a_unchanged": true,
+  "new5_used": false
+}

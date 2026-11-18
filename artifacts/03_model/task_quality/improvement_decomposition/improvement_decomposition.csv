@@ -1,0 +1,10 @@
+rule,split,config,sessions,pooled_total_improvement,pooled_capture_contribution,pooled_mark_movement_contribution,session_paired_total_improvement,session_paired_capture_contribution,session_paired_mark_movement_contribution,session_paired_capture_share_pct,additive_check_session_paired
+back,val,no_spread_filter,6,69.496074,19.736466,49.759609,72.229002,25.375257,46.853746,35.13,0.0
+back,new3,no_spread_filter,6,73.254608,45.246968,28.00764,75.27869,48.084297,27.194393,63.88,0.0
+back,new4,no_spread_filter,4,71.720702,40.180044,31.540657,66.811175,43.116122,23.695053,64.53,0.0
+proportional,val,no_spread_filter,6,69.133009,20.393877,48.739132,72.145316,25.924666,46.220649,35.93,0.0
+proportional,new3,no_spread_filter,6,72.494681,45.657007,26.837674,73.297927,48.401298,24.896629,66.03,0.0
+proportional,new4,no_spread_filter,4,70.570676,40.889893,29.680783,67.197313,43.829086,23.368227,65.22,0.0
+front,val,no_spread_filter,6,46.781925,26.493411,20.288513,50.801913,27.204368,23.597545,53.55,0.0
+front,new3,no_spread_filter,6,62.497218,43.476715,19.020504,62.117074,46.006964,16.11011,74.06,0.0
+front,new4,no_spread_filter,4,61.704419,42.288603,19.415815,62.356477,43.245824,19.110653,69.35,0.0

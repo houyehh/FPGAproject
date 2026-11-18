@@ -1,0 +1,9 @@
+comparison,item,D16_or_G16,G16_or_G8,same
+D16_vs_G16,feature_dim,16,16,True
+D16_vs_G16,hidden_dim,16,16,True
+D16_vs_G16,encoder,Linear-LayerNorm-SiLU,Linear-LayerNorm-SiLU,True
+D16_vs_G16,readout,"Linear(16,2)","Linear(16,2)",True
+D16_vs_G16,recurrence_block,05f dense ablation: gate/candidate/synapse/gain/loop_norm,diagonal decay/gain,False
+G16_vs_G8,model_family,diagonal SSM,diagonal SSM,True
+G16_vs_G8,hidden_dim,16,8,False
+G16_vs_G8,training_and_evaluation_protocol,11B+16A,11B+16A,True
